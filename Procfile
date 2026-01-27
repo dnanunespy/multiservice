@@ -1,0 +1,1 @@
+web: python manage.py migrate && python criar_admin.py && gunicorn core.wsgi --log-file -
