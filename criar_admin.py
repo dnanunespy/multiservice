@@ -2,7 +2,7 @@ import os
 import django
 
 # Configura o Django
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "core.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "multiservice.settings")
 django.setup()
 
 from django.contrib.auth.models import User
